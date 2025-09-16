@@ -50,7 +50,7 @@ export default function Navbar() {
               className="menu menu-sm dropdown-content mt-3 z-10 w-52 p-2 shadow bg-white text-gray-700 rounded-box"
             >
               <li><Link href="/addfood">Add Foods</Link></li>
-              <li><Link href="/cart"><FaShoppingCart /> Cart</Link></li>
+              <li><Link href="/carditem"><FaShoppingCart /> Cart</Link></li>
               <li><Link href="/favorites"><FaHeart /> Favorites</Link></li>
             </ul>
           </div>
@@ -64,7 +64,7 @@ export default function Navbar() {
           <ul className="menu menu-horizontal px-1 text-base font-medium">
             <li><Link href="/addfood">Add Foods</Link></li>
             <li>
-              <Link href="/cart" className="flex items-center gap-1">
+              <Link href="/carditem" className="flex items-center gap-1">
                 <FaShoppingCart /> Cart
               </Link>
             </li>

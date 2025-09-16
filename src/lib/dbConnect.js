@@ -3,7 +3,8 @@ import { MongoClient, ServerApiVersion } from "mongodb";
 export const collectionNames = {
   TEST_USER: "test-users",
   FOOD_DATA:"foods",
-  RESTURANT:'resturant'
+  RESTURANT:'resturant',
+  CART_DATA:'carts'
 };
 
 function dbconnet(collectionName) {
