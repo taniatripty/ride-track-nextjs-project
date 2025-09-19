@@ -4,7 +4,8 @@ export const collectionNames = {
   TEST_USER: "test-users",
   FOOD_DATA:"foods",
   RESTURANT:'resturant',
-  CART_DATA:'carts'
+  CART_DATA:'carts',
+  RIDERS_DATA:'riders'
 };
 
 function dbconnet(collectionName) {
